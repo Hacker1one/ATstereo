@@ -1,6 +1,7 @@
 # Manual Basic Operation Guide for ATStereo
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22542855.svg)](https://doi.org/10.5281/zenodo.22542855)
+[![Website](https://img.shields.io/badge/Website-ATStereo-blue)](https://abdelrahmantaha.me/ATStereo-site/#)
 
 ## 1. Program Download and Installation
 
@@ -17,6 +18,7 @@
 
 ### 1.2 Download the ATStereo module
 
+* **Official Website & Video Tutorials:** [https://abdelrahmantaha.me/ATStereo-site/#](https://abdelrahmantaha.me/ATStereo-site/#)
 * Download the ATStereo module from the repository: [https://github.com/taha-at/ATStereo](https://github.com/taha-at/ATStereo).
 * After extraction, place the entire module folder into a fixed directory. It's advisable to put it within the 3D Slicer installation path for easy access.
 * The module includes the main algorithm script `ATStereo.py`, the user interface `ATStereo.ui`, and a `Resources` folder containing essential files like the patented frame models and sample CT dataset. 

@@ -1,5 +1,7 @@
 # Manual Basic Operation Guide for ATStereo
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22542855.svg)](https://doi.org/10.5281/zenodo.22542855)
+
 ## 1. Program Download and Installation
 
 ### 1.1 Download and Install the Latest Version of 3D Slicer
@@ -66,3 +68,10 @@
 * **Trajectory Separation Warning:** The system runs an automated check in the background. If your planned left and right trajectories are dangerously close to one another (under 5.0 mm), a warning will display to prevent potential hardware collision during bilateral procedures.
 * **New Plans:** To add multiple simulated paths, click the **New Plan** button to lock in your current trajectories and duplicate the tube models for visual reference.
 * the main hardware had a target error less than 0.2 mm
+
+---
+
+## Citation & DOI
+
+- **DOI:** [10.5281/zenodo.22542855](https://doi.org/10.5281/zenodo.22542855)
+- **Zenodo Record:** [https://doi.org/10.5281/zenodo.22542855](https://doi.org/10.5281/zenodo.22542855)

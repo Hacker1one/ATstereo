@@ -65,3 +65,4 @@
 * **Surgical Simulation:** Users can manually override and adjust the head frame penetration direction by using the linear sliders in the `Visualization` area. You can independently tweak the Local X, Y, Z, Arc, and Ring values for the Left Side and Right Side to simulate varying surgical approaches.
 * **Trajectory Separation Warning:** The system runs an automated check in the background. If your planned left and right trajectories are dangerously close to one another (under 5.0 mm), a warning will display to prevent potential hardware collision during bilateral procedures.
 * **New Plans:** To add multiple simulated paths, click the **New Plan** button to lock in your current trajectories and duplicate the tube models for visual reference.
+* the main hardware had a target error less than 0.2 mm

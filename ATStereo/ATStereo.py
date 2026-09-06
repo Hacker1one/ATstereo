@@ -366,7 +366,7 @@ class ATStereoWidget(ScriptedLoadableModuleWidget, VTKObservationMixin):
     threeDView.resetFocalPoint() 
     slicer.util.resetSliceViews()
     
-    if rms_error > 1.5:
+    if rms_error > 1:
         slicer.util.warningDisplay(f"The alignment error is very large (RMSE = {rms_error} mm). \nMake sure you picked the points in the EXACT order: \n1. Left Isocenter\n2. Right Isocenter\n3. Left (0,0,120)\n4. Right (0,0,120).", windowTitle="High Error Warning")
     else:
         slicer.util.messageBox(f"Alignment complete! (RMSE = {rms_error} mm)")
